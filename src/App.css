@@ -1,0 +1,118 @@
+.cards {
+  max-width: 675px;
+  width: 100%;
+  margin: 0 auto;
+  background: #c5e4e7;
+  padding: 20px;
+  border-radius: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+}
+
+.main-wrapper {
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 15px;
+}
+.parent-class {
+  max-width: 200px;
+  background: antiquewhite;
+  border-radius: 15px;
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.parent-class:hover {
+  transform: scale(1.2);
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
+.row {
+  flex-wrap: wrap;
+  display: flex;
+  background: aliceblue;
+  padding: 20px;
+  border-radius: 15px;
+  justify-content: space-evenly;
+}
+
+.inner-Wrapper {
+  margin: 20px;
+}
+
+.details-wrapper {
+  text-align: center;
+}
+
+.veiw-profile-wrapper {
+  padding: 10px;
+  width: 180px;
+}
+
+.veiw-profile-wrapper:hover {
+  background: #3071a9;
+}
+
+.link-btn {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.link-btn:hover {
+  color: white;
+}
+
+img {
+  border-radius: 45px;
+}
+
+.back-btn {
+  text-decoration: none;
+  font-size: 16px;
+  width: 360px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #6fe8e8ad;
+}
+.profile-details-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.back-btn-wrapper {
+  text-align: center;
+}
+
+.profile-img {
+  text-align: center;
+}
+.inner-cards-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+a.btn.btn-primary.btn-block {
+  text-decoration: none;
+}
+
+@media (max-width: 428px) {
+  .profile-details-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  div {
+    text-align: center;
+  }
+  .back-btn {
+    width: 300px;
+  }
+}
